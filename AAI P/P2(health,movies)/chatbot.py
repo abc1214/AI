@@ -1,4 +1,8 @@
 import aiml
+import time
+
+clock.time = time.time
+
 kernel = aiml.Kernel()
 kernel.learn("std-startup1.xml")
 kernel.respond("load aiml b")
